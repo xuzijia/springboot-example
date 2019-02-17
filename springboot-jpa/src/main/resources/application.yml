@@ -1,0 +1,13 @@
+server:
+  port: 9090
+#数据库基本配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://127.0.0.1/springboot-example?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC&useSSL=true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
